@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false" parallel="test"thread-count=2>
+	<test name="Test_Chrome">
+		<Parameter name="browser" value="chrome" />
+		<Parameter name="url"
+			value="http://demos.cs-cart.com/22181ed0ec98b97f/" />
+		<classes>
+			<class name="tc.TC_HealthCheck" />
+		</classes>
+		
+		<test name="Test_Mozilla">
+		<Parameter name="browser" value="chrome" />
+		<Parameter name="url"
+			value="http://demos.cs-cart.com/22181ed0ec98b97f/" />
+		<classes>
+			<class name="tc.TC_HealthCheck" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
